@@ -22,9 +22,9 @@ app.post("/ages" ,(request,response) =>{
         }
     }
     return response.json({
-        "Jumlah Dewasa" : jmldewasa,
-        "Jumlah Remaja" : jmlremaja,
-        "Jumlah Tua" : jmltua
+        "Jumlah_Dewasa" : jmldewasa,
+        "Jumlah_Remaja" : jmlremaja,
+        "Jumlah_Tua" : jmltua
     })
 })
 app.listen(8001,() => {

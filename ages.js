@@ -4,6 +4,7 @@ let express = require("express")
 
 //inisiasi objek baru dari express
 let app = express()
+app.use(express.json())
 
 app.post("/ages" ,(request,response) =>{
     //store the rquest data 
